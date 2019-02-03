@@ -2,6 +2,7 @@
 @import url('menu.css');
 @import url('banner.css');
 @import url('blog.css');
+@import url('info.css');
 
 *{
     margin: 0;
@@ -29,10 +30,40 @@ header{
 section{
     width:100%;
     margin-bottom: 25px;
+
+}
+#welcome{
+    text-align: center;
+    padding: 0px 5px;
 }
 h1{
     float: left;
 }
 header .container{
     display: table;
+}
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.copy{
+    font-size: 20px;
+}
+.social-media{
+    margin-top: 10px;
+    width:100%;
+    text-align: center;
+    font-size: 28px;
+}
+.social-media a{
+    color: #333;
+    text-decoration: none;
+}
+
+@media screen and (min-width:1024px){
+    .container{
+        width: 1000px;
+    }
 }

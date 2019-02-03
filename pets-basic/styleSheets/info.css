@@ -1,0 +1,63 @@
+#info{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#info .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-pet{
+    margin: 20px;
+}
+.info-pet figure{
+    width: 180px;
+    height: 180px;
+}
+.info-pet img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+@media screen and (min-width:480px){
+    .info-pet figure{
+        margin:0 auto;
+    }
+    .info-pet{
+        width: 40%;
+        height: 40%;
+        margin: 15px;
+    }
+@media screen and (min-width:768px){
+
+        .info-pet figure{
+            margin:0 auto;
+        }
+        .info-pet{
+            margin: 15px;
+            width: 35%;
+            height: 35%;
+        }
+        .info-pet img{
+            border: 3px solid #fff;
+        }
+    }
+@media screen and (min-width:1024px){
+    .info-pet figure{
+        margin:0 auto;
+    }
+    .info-pet{
+        width: 20%;
+        height: 20%;
+        margin: 15px;
+    }
+}
+
+
+
+
+}

@@ -7,6 +7,9 @@ header label{
     margin:9px 0;
     cursor: pointer;
 }
+.container h1{
+    margin-top:6px;
+}
 .menu{
     position: absolute;
     top:50px;
@@ -33,3 +36,22 @@ header label{
 #menu-bar:checked ~ .menu{
     transform: translate(0%);
 }
+@media screen and (min-width:1024px){
+
+    .menu{
+        float: right;
+        display: flex;
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        background: #333;
+    }
+    .menu a{
+        border:none;
+    }
+    .icon-menu{
+        display: none;
+    }
+}
+

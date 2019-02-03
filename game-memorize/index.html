@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memorize</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="container-global">
+            <div  class="title">
+                    <h1>memorize</h1>
+                    <h2>Level: <span id="counter">0</span></h2>
+            </div>
+        <div class="container">
+            <div id="blue" class="section blue" data-color="blue"></div>
+            <div id="purple" class="section purple" data-color="purple"></div>
+            <div id="orange" class="section orange" data-color="orange"></div>
+            <div id="green" class="section green" data-color="green"></div>
+            <button id="btnStart" onClick="startGame()"> Start Game!</button>
+        </div>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
