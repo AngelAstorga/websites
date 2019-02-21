@@ -9,7 +9,7 @@ section{
 section.sec1{
     position:relative;
     overflow: hidden;
-    background-image: url('hero.jpg');
+    background-image: url('hero2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -40,7 +40,7 @@ section.sec1::after{
 section.sec3{
     position:relative;
     overflow: hidden;
-    background-image: url('snow_treet.jpg');
+    background-image: url('snow_street.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
